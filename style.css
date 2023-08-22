@@ -1,0 +1,15 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+.sketchpad {
+  border: 5px solid black;
+  display: grid;
+  width: 960px;
+  height: 960px;
+}
+
+.box {
+  border: 2px solid black;
+}
