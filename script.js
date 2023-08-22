@@ -16,4 +16,15 @@ function createGrid(length=16) {
   }
 }
 
+function draw() {
+  const boxes = document.querySelectorAll(".box");
+
+  boxes.forEach((box) => {
+    box.addEventListener("mouseover", () => {
+      box.style.backgroundColor = "green";
+    })
+  })
+}
+
 createGrid();
+draw();
